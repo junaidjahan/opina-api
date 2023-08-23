@@ -24,7 +24,7 @@ export class User {
     @Column("datetime", { nullable: true })
     updatedAt: string | null
 
-    @Column("number",{default: 0})
+    @Column("int",{default: 0})
     delete: number
 
 }
